@@ -1,0 +1,153 @@
+
+.DottedBox_content {
+    font-size: 15px;
+    text-align: center;
+  }
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color:#caebf2; 
+
+}
+  
+.navbar-container{
+  height: 70px;
+  background-color: #ff3b3f;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:100;
+  
+}
+
+.third-part{
+  background-color:#efefef;
+
+  height: 500px;
+  display: flex;
+  width: 100%;
+}
+.bottom-part{
+  background-color: #a9a9a9;
+  height: 300px;
+  display: flex;
+  width: 100%;
+}
+.navbar-nav{
+  margin-left:15px;
+  margin-right:15px;
+}
+
+.all-page{
+  height: 100%;
+  width: 100%;
+}
+
+.navbar{
+  z-index: 3;
+}
+.carousel-item{
+  background-color: #031347; 
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.img-container{
+  position: absolute;
+  width: 670px;
+  height: 400px;
+  top: 50px ;
+  transform: scale(0.8,0.8);
+}
+.bilboard-txt{
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  font-size: 38px; 
+  font-weight: 300; 
+  line-height: 58px;
+}
+.comment{
+  color: #efefef;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px; 
+  font-weight: 50; 
+  line-height: 15px;
+  margin-top: 10px;
+
+}
+.bilcoard-comment{
+  color: #a9a9a9;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px; 
+  font-weight: 50; 
+  line-height: 15px;
+  margin-top: 10px;
+
+
+}
+.explain-container{
+  margin-top: 200px;
+  text-align: left;
+  margin-left: 200px;
+  margin-right: 50px;
+}
+
+.bilboard-button{
+  margin-top: 15px;
+}
+.icon-container{
+  flex: 25%;
+}
+.icons{
+   margin-top: 80px ;
+}
+.icon-head{
+  margin-top: 30px;
+}
+.icon-txt{
+  color : #000000
+}
+.endlinks-container{
+  width: 200px;
+  margin-top: 40px;
+  margin-left: 30px;
+  text-align: left;
+ 
+}
+.endlinks-header{
+  margin-bottom: 30px;
+}
+.endlinks{
+  text-decoration: none;
+  color : #2c003e ;
+  font-size: 13px;
+  line-height: 8px;
+}
+.contact{
+  margin-top: 90px;
+  width: 300px  ;
+  display: flex;
+  flex-direction: row;
+}
+
+.twitter{
+  margin-left: 8px;
+  margin-top: 5px;
+}
+.fb{
+  margin-top: 6px;
+}
+.carousel{
+  width: 95%;
+}
